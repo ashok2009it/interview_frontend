@@ -25,6 +25,7 @@ export const AuthProvider = ({ children }: { children: React.ReactNode }) => {
   const getProfile = async (callback: VoidFunction) => {
     const meResponse: MeResponse = await getMe();
     if (meResponse.success) {
+      setUser(JSON.stringify(meResponse.user));
       callback();
       if (!user) {
         throw Error('something went wrong');
