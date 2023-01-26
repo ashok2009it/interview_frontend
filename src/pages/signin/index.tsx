@@ -230,7 +230,7 @@ const SignIn = () => {
       >
         {'Copyright © '}
         <Link color='inherit' target={'_blank'} href='https://google.com/'>
-          Ashok Sah
+          Interview
         </Link>{' '}
         {new Date().getFullYear()}
         {'.'}

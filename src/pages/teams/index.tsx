@@ -94,7 +94,7 @@ const Teams = () => {
                           <TableCell>
                             <IconButton
                               color='primary'
-                              aria-label='upload picture'
+                              aria-label='View Detail'
                               component='label'
                               onClick={() => {
                                 navigate(`/team/${team.uuid}`);
